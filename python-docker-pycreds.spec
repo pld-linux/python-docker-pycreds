@@ -11,8 +11,8 @@
 Summary:	Python bindings for the docker credentials store API
 Name:		python-%{pypi_name}
 Version:	0.2.1
-Release:	2
-License:	UNKNOWN
+Release:	3
+License:	Apache v2.0
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/d/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
 # Source0-md5:	0d80d5aebab771faf7e422b759c3055b
