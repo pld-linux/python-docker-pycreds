@@ -16,7 +16,7 @@ License:	UNKNOWN
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/d/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
 # Source0-md5:	0d80d5aebab771faf7e422b759c3055b
-URL:		https://github.com/shin-/docker-pycreds/
+URL:		https://github.com/shin-/dockerpy-creds
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
 %if %{with python2}
