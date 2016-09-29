@@ -37,7 +37,6 @@ BuildRequires:	python3-pytest = 3.0.2
 BuildRequires:	python3-pytest-cov = 2.3.1
 %endif
 %endif
-Requires:	python-six >= 1.4.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -47,7 +46,6 @@ Python 2 bindings for the docker credentials store API
 %package -n python3-%{pypi_name}
 Summary:	Python bindings for the docker credentials store API
 Group:		Libraries/Python
-Requires:	python3-six >= 1.4.0
 
 %description -n python3-%{pypi_name}
 Python 3 bindings for the docker credentials store API
