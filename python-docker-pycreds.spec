@@ -54,7 +54,7 @@ Python 3 bindings for the docker credentials store API
 %setup -q -n %{pypi_name}-%{version}
 
 # Remove bundled egg-info
-%{__rm} -r %{module}.egg-info
+%{__rm} -r %{egg_name}.egg-info
 
 %build
 %if %{with python2}
