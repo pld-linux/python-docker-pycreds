@@ -10,12 +10,12 @@
 %define		pypi_name	docker-pycreds
 Summary:	Python bindings for the docker credentials store API
 Name:		python-%{pypi_name}
-Version:	0.2.1
-Release:	4
+Version:	0.2.2
+Release:	1
 License:	Apache v2.0
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/d/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
-# Source0-md5:	0d80d5aebab771faf7e422b759c3055b
+# Source0-md5:	ae63c7def3e58cb51a4d8f5810683030
 URL:		https://github.com/shin-/dockerpy-creds
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
