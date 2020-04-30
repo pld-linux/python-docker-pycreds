@@ -11,7 +11,7 @@
 Summary:	Python bindings for the docker credentials store API
 Name:		python-%{pypi_name}
 Version:	0.4.0
-Release:	2
+Release:	3
 License:	Apache v2.0
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/d/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
@@ -37,7 +37,7 @@ BuildRequires:	python3-pytest = 3.0.2
 BuildRequires:	python3-pytest-cov = 2.3.1
 %endif
 %endif
-Requires:	docker-credential-helpers >= 0.4.0
+Suggests:	docker-credential-helpers >= 0.4.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -47,7 +47,7 @@ Python 2 bindings for the docker credentials store API
 %package -n python3-%{pypi_name}
 Summary:	Python bindings for the docker credentials store API
 Group:		Libraries/Python
-Requires:	docker-credential-helpers >= 0.4.0
+Suggests:	docker-credential-helpers >= 0.4.0
 
 %description -n python3-%{pypi_name}
 Python 3 bindings for the docker credentials store API
